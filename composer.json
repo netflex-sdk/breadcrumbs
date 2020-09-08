@@ -10,20 +10,12 @@
     },
     "sort-packages": true
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/apility/seotools"
-    }
-  ],
   "require": {
     "php": "^7.3",
     "illuminate/support": "^8.0",
     "illuminate/view": "^8.0",
     "netflex/pages": "^3.0"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Netflex\\Breadcrumbs\\": "src/"
